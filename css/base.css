@@ -1,0 +1,13 @@
+.magin-left{
+			margin-left:20px;
+		}
+
+.boder-outset-top{
+			border:2px black;
+			border-style: outset none none none;
+		}
+
+.boder-outset-bottom{
+			border:2px black;
+			border-style: none none outset none;
+		}

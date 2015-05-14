@@ -1,0 +1,25 @@
+.kid,.pa,.gpa{
+		  width: 23px;
+		  height: 23px;
+		  background: #ededed;
+		  border-radius: 2px;
+		  -webkit-border-radius: 2px;
+		  display: inline-block;
+		  position: relative;
+		}
+.checkbox-s {
+		  background: #43c5e5;
+		  position: relative;
+		}
+.checkbox-s span {
+		  width: 15px;
+		  height: 7px;
+		  border-left: 3px solid #fff;
+		  border-bottom: 3px solid #fff;
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
+		  position: absolute;
+		  top: 3px;
+		  left: 3px;
+		  opacity: 1;
+		}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>checkBox sample</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<link type="text/css" rel="stylesheet" href="../css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../css/checkbox.css" />
+</head>
+<body>
+	<article>
+		<section>
+			<div class="boder-outset-top">
+				<div class="pa checkbox-s">
+					<span></span>
+				</div>
+			</div>
+			<div class="magin-left">
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>临</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>兵</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>斗</label>
+			</div>
+		</section>
+
+		<section>
+			<div class="boder-outset-top">
+				<div class="pa checkbox-s">
+					<span></span>
+				</div>
+			</div>
+			<div class="magin-left">
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>者</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>皆</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>阵</label>
+			</div>
+		</section>
+
+		<section>
+			<div class="boder-outset-top">
+				<div class="pa checkbox-s">
+					<span></span>
+				</div>
+			</div>
+			<div class="magin-left">
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>列</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>前</label>
+				<br/>
+				<div class="kid checkbox-s">
+					<span></span>
+				</div>
+				<label>行</label>
+			</div>
+		</section>
+
+		<section class="boder-outset-top">
+			<div class="gpa checkbox-s">
+				<span></span>
+			</div>
+			全选
+		</section>
+	</article>
+
+</body>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/checkBox.js"></script>
+	<script type="text/javascript">
+		// 	kid pa gpa 分别表示子级别、父级别、祖父级别的checkbox；
+		// 	checkbox-s表示checkbox选中状态
+		//      完整样例
+		// 		<div class="kid checkbox-s">
+		//			<span></span>
+		//		</div>
+		//  父级别和子级别需要在同一个section中；
+		$(function(){
+			// 调用checkBox添加联动事件
+			$.checkBox();
+		})
+	</script>
+</html>
